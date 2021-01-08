@@ -5,8 +5,7 @@ import Hero from "./Comps/hero";
 export default function Index() {
   return <div>
     <Hero />
-    {/* <Features /> */}
-
-    {/* <Footer /> */}
+    <Features />
+    <Footer />
   </div>
 }
