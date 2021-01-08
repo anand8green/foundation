@@ -1,4 +1,4 @@
-import NavBar from "./Navbar";
+import NavBar from "./navbar";
 import { useRouter } from 'next/router'
 import Link from 'next/Link'
 
