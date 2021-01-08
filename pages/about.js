@@ -1,4 +1,4 @@
-import InsideHero from './comps/fnsidehero'
+import InsideHero from './comps/insidehero'
 import Footer from "./comps/footer";
 
 export default function About() {
