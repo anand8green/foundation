@@ -1,5 +1,5 @@
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
-import Blogs from '../blogs'
+import Blogs from '../blogs.js'
 import Link from 'next/link'
 
 export default function Features() {

@@ -1,5 +1,5 @@
-import InsideHero from './comps/insidehero'
-import Footer from "./comps/footer";
+import InsideHero from './comps/insidehero.js'
+import Footer from "./comps/footer.js";
 
 export default function About() {
     return <div>
@@ -15,7 +15,7 @@ export default function About() {
                 <p>                    <span> Fuel Poverty Grants</span>The Green Foundation offers grants of up to £150 for individuals, organisations, and communities to nominate families and individuals in extreme financial hardship to receive money towards energy debt.
 
                         </p>
-                <span> Regeneration Projects</span>
+                <span> Regeneration Projects </span>
                 <p>
                     We accept applications from individuals, organisations, and communities to provide funding and grants towards rThese will be submitted to Members of Green to vote to determine who receives funding.
                  </p>

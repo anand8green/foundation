@@ -1,6 +1,6 @@
-import Features from "./comps/features";
-import Footer from "./comps/footer";
-import Hero from "./comps/hero";
+import Features from "./comps/features.js";
+import Footer from "./comps/footer.js";
+import Hero from "./comps/hero.js";
 
 export default function Index() {
   return <div>

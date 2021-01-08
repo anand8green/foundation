@@ -1,5 +1,5 @@
-import InsideHero from './comps/insidehero'
-import Footer from "./comps/footer";
+import InsideHero from './comps/insidehero.js'
+import Footer from "./comps/footer.js";
 
 export default function Contact() {
     return <div>
