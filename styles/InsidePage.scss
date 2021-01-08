@@ -17,3 +17,23 @@
 .newsContainer {
   @include centerMe;
 }
+
+// contact page
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  h1 {
+    color: $EnergyGreen;
+    font-size: 1.6rem;
+  }
+}
+
+.map {
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+}
