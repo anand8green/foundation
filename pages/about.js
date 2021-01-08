@@ -3,7 +3,7 @@ import Footer from "./comps/footer.js";
 
 export default function About() {
     return <div>
-        <InsideHero title="About" subtitle="Our goals and commitments" />
+        <InsideHero title="About us" subtitle="Our goals and commitments" />
         <div className="container">
             <div className="content">
                 <p>

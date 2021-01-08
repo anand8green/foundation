@@ -13,6 +13,14 @@ export default function Hero() {
 
     return (
         <div className="Hero">
+            <div className="wave">
+                <img
+                    src="/wave.svg"
+                    width='100%'
+                    height='10%'
+                />
+            </div>
+            
             <NavBar />
             <div className="Hero__Content">
                 <div className="Hero__Text">

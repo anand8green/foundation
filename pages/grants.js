@@ -7,14 +7,19 @@ export default function Grants() {
         <div className="container">
             <div className="content">
                 <p>
-                    The Green Foundation is based in Newcastle Upon Tyne, and is the charity arm of Green - a tech focused energy supplier which provides renewable energy to its Members. The Green Foundation is a grant making charity which aims to educate about sustainability and renewable energy, to tackle fuel poverty through hardship grants, and to promote sustainable developments in the community. The Green Foundation is overseen by the board of trustees who work together to achieve the charitable mission of the Foundation. The Green Foundation is funded by Green which provides a donation of £1 for each Member which joins the supplier, and of which 100% is used to further the goals of The Green Foundation. The Green Foundation supports individuals in the heart of our local communities, and throughout the United Kingdom. We offer three different types of support, including:
-<p><span>Educational Events</span>The Green Foundation will attend schools, colleges, community centres, and events to provide workshops, lectures, seminars, or conferences to teach about sustainability and renewable energy.
+                    The Green Foundation supports individuals in our local community and nationwide. If you are based in England and require some of the services offered by The Green Foundation, you may be eligible to apply to any of our programmes below. Please read the criteria for each programme carefully before starting an application.
 
-</p>
-                    <p>                    <span> Fuel Poverty Grants</span>The Green Foundation offers grants of up to £150 for individuals, organisations, and communities to nominate families and individuals in extreme financial hardship to receive money towards energy debt.
+                    <span>Fuel Hardship Fund </span>Green recognises that fuel poverty is an issue which impacts individuals and families. Fuel Poverty is defined as a household spending more than 10% of its income after housing on energy. Green aims to provide households with renewable energy at a low cost point to help to promote sustainability and reduce fuel poverty.
 
-</p>
-                    <span> Regeneration Projects</span> We accept applications from individuals, organisations, and communities to provide funding and grants towards regeneration projects and renewable energy projects. These will be submitted to Members of Green to vote to determine who receives funding.
+                    The Green Foundation makes grants of up to £150 to families and individuals in extreme financial hardship. The programme makes grants directly to an energy supply to help those in arrears to help the fight against fuel poverty.
+
+                    Application & Guidelines
+
+                   <span>Sustainable Development Fund </span> The Green Foundation aims to help improve the sustainability of local communities. We accept applications from individuals, organisations, and communities to provide funding and grants towards regeneration projects and renewable energy projects. These will be submitted to Members of Green to vote to determine who receives funding. Some examples of projects that would be supported by this grant include funding towards solar panel installations, the creation of community groups to promote sustainability, community garden planting, tree planting, or other projects that meet with our charitable goals and objects.
+
+                    Application & Guidelines
+
+                   <span> Educational Events </span>The Green Foundation will attend schools, colleges, community centres, and events to provide workshops, lectures, seminars, or conferences to teach about sustainability and renewable energy. We offer a single event slot per month depending on the availability of educators, and you can request more information by emailing hello@thegreenfoundation.org.ÍÍ
                </p>
             </div>
 

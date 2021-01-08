@@ -10,11 +10,19 @@
   font-style: normal;
   background-color: $Green;
   background-size: cover;
+  position: relative;
 
   // background-image: linear-gradient(to bottom, #3ab1eb, #ffffff00),
   //   url("/bg.jpg");
   background-image: url("/bg.jpg");
-  background-position: center;
+  background-position: bottom;
+
+  .wave {
+    position: absolute;
+    bottom: -1.2%;
+    width: 100%;
+    display: block;
+  }
 
   &__Content {
     @include centerMe;
@@ -31,6 +39,7 @@
         margin-top: 6rem;
         padding: 1rem;
         color: white !important;
+        text-shadow: 2px 5px 40px rgba(0, 0, 0, 0.342);
         @media (max-width: 800px) {
           font-size: 3rem;
         }

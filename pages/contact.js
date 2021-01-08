@@ -6,16 +6,38 @@ export default function Contact() {
         <InsideHero title="Contact" subtitle="Send us an email or find out where we are based" />
         <div className="container">
             <div className="content">
-                <p>
-                    The Green Foundation is based in Newcastle Upon Tyne, and is the charity arm of Green - a tech focused energy supplier which provides renewable energy to its Members. The Green Foundation is a grant making charity which aims to educate about sustainability and renewable energy, to tackle fuel poverty through hardship grants, and to promote sustainable developments in the community. The Green Foundation is overseen by the board of trustees who work together to achieve the charitable mission of the Foundation. The Green Foundation is funded by Green which provides a donation of £1 for each Member which joins the supplier, and of which 100% is used to further the goals of The Green Foundation. The Green Foundation supports individuals in the heart of our local communities, and throughout the United Kingdom. We offer three different types of support, including:
-<p><span>Educational Events</span>The Green Foundation will attend schools, colleges, community centres, and events to provide workshops, lectures, seminars, or conferences to teach about sustainability and renewable energy.
 
-</p>
-                    <p>                    <span> Fuel Poverty Grants</span>The Green Foundation offers grants of up to £150 for individuals, organisations, and communities to nominate families and individuals in extreme financial hardship to receive money towards energy debt.
+                <div className="info">
 
-</p>
-                    <span> Regeneration Projects</span> We accept applications from individuals, organisations, and communities to provide funding and grants towards regeneration projects and renewable energy projects. These will be submitted to Members of Green to vote to determine who receives funding.
-               </p>
+                    <div className="contact">
+
+                        <h1>Opening Times</h1>
+                        <p>
+                            Mon - Fri, 9am - 5pm</p>
+                        <h1>Address </h1>
+                        <p>
+                            The Core
+                            Bath Lane
+                            Newcastle Upon Tyne
+                            England
+                            NE4 5TF
+                    </p>
+
+                        <h1>     Email</h1>
+                        <p>
+                            info@thegreenfoundation.com</p>
+
+                        <h1>     Telephone</h1>
+                        <p>
+                            0345 222 3232 </p>
+                    </div>
+
+                    <div className="map" >
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2290.0390427386606!2d-1.625569184099623!3d54.972414480351915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54b89016fafd9d53!2sGreen!5e0!3m2!1sen!2suk!4v1559568093914!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
+
+                    </div>
+
+                </div>
             </div>
 
         </div>
