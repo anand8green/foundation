@@ -1,0 +1,44 @@
+@import "./guide.scss";
+
+.BurgetLink {
+  cursor: pointer;
+}
+
+.BurgerMenu {
+  //   background-color: red;
+  background: linear-gradient($Green, #1b723c);
+  position: absolute;
+  font-size: 1rem !important;
+  text-align: left;
+  top: 7rem;
+  z-index: 1000;
+  background-color: $Green;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 95%;
+  max-width: 20rem;
+  right: 2rem;
+  // display: grid;
+  // gap: 1rem;
+
+  li {
+    font-family: "Geon";
+    list-style: none;
+    padding: 0.3rem 0.8rem;
+    background-color: rgba(0, 0, 0, 0.081);
+    // border-bottom: thin solid rgb(180, 226, 245);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    color: white;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+
+    &:hover {
+      color: white;
+      background-color: rgba(255, 255, 255, 0.279);
+    }
+  }
+}

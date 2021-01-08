@@ -1,0 +1,29 @@
+$Green: #84c632;
+$EnergyGreen: #2eaf5f;
+$white: #fafafa;
+$black: #383838;
+
+@mixin centerMe {
+  min-width: 275px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@mixin bigButton {
+  width: 250px;
+  border: none;
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  outline: none;
+  box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.163);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@font-face {
+  src: url("../media/geon.ttf");
+  font-family: "Geon";
+  font-weight: lighter;
+}

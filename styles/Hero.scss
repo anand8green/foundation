@@ -1,0 +1,77 @@
+@import "./guide.scss";
+
+.Hero {
+  text-align: center;
+  min-height: 58rem;
+  color: white;
+  font-size: 2rem;
+  min-width: 200px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: $Green;
+  background-size: cover;
+  // background-image: linear-gradient(to bottom, $EnergyGreen, #84c632),
+  //   url("/bg.jpg");
+  // $Green: #84c632;
+  // $EnergyGreen: #2eaf5f
+  background-image: linear-gradient(to bottom, #6cb316, #ffffff00),
+    url("/bg.jpg");
+
+  background-position: bottom;
+
+  &__Content {
+    @include centerMe;
+    position: relative;
+    z-index: 10;
+
+    .Hero__Text {
+      max-width: 900px;
+      margin: auto;
+
+      margin: 2rem auto;
+
+      > h1 {
+        margin-top: 6rem;
+        padding: 1rem;
+        color: white !important;
+        @media (max-width: 800px) {
+          font-size: 3rem;
+        }
+        @media (max-width: 550px) {
+          font-size: 2rem;
+        }
+      }
+
+      > h4 {
+        font-size: 1.6rem;
+        font-weight: 100;
+        @media (max-width: 800px) {
+          font-size: 2rem;
+        }
+        @media (max-width: 550px) {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .donationButton {
+      @include bigButton;
+      background: linear-gradient($EnergyGreen, #63a711);
+      color: white;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .learnButton {
+      @include bigButton;
+      background: linear-gradient(rgb(224, 224, 224), rgb(255, 255, 255));
+      color: rgb(122, 122, 122);
+      transition: all 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
