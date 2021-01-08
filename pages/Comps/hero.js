@@ -1,6 +1,6 @@
-import NavBar from "./Navbar";
+import NavBar from "./navbar";
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+import Link from 'next/Link'
 
 export default function Hero() {
 

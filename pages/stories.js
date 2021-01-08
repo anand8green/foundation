@@ -1,8 +1,7 @@
-import InsideHero from './Comps/Insidehero'
+import InsideHero from './comps/insidehero'
 import Blogs from './blogs'
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
-
-import Footer from "./Comps/Footer";
+import Footer from "./comps/footer";
 
 export default function Stories() {
     return <div>

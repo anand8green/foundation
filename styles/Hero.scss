@@ -10,14 +10,11 @@
   font-style: normal;
   background-color: $Green;
   background-size: cover;
-  // background-image: linear-gradient(to bottom, $EnergyGreen, #84c632),
-  //   url("/bg.jpg");
-  // $Green: #84c632;
-  // $EnergyGreen: #2eaf5f
-  background-image: linear-gradient(to bottom, #6cb316, #ffffff00),
-    url("/bg.jpg");
 
-  background-position: bottom;
+  // background-image: linear-gradient(to bottom, #3ab1eb, #ffffff00),
+  //   url("/bg.jpg");
+  background-image: url("/bg.jpg");
+  background-position: center;
 
   &__Content {
     @include centerMe;

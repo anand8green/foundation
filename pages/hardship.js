@@ -1,5 +1,5 @@
-import InsideHero from './Comps/Insidehero'
-import Footer from "./Comps/Footer";
+import InsideHero from './comps/insidehero'
+import Footer from "./comps/footer";
 
 export default function Hardship() {
     return <div>

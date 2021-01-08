@@ -1,9 +1,9 @@
 // import Image from 'next/image'
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 import CloseRoundedIcon from '@material-ui/icons/CloseRounded';
-import Link from 'next/link'
+import Link from 'next/Link'
 import { useState } from 'react';
-import BurgerMenu from './BurgerMenu';
+import BurgerMenu from './burgerMenu';
 export default function NavBar() {
 
     const [open, setOpen] = useState(false)
