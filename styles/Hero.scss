@@ -10,15 +10,17 @@
   font-style: normal;
   background-size: cover;
   position: relative;
-
-  // background-image: linear-gradient(to bottom, #3ab1eb, #ffffff00),
-  //   url("/bg.jpg");
   background-image: url("/bg.jpg");
   background-position: bottom;
 
+  @media (max-width: 800px) {
+    min-height: min-content;
+    padding-bottom: 2rem;
+  }
+
   .wave {
     position: absolute;
-    bottom: -1.2%;
+    bottom: -2%;
     width: 100%;
     display: block;
   }
@@ -31,7 +33,6 @@
     .Hero__Text {
       max-width: 900px;
       margin: auto;
-
       margin: 2rem auto;
 
       > h1 {
@@ -40,10 +41,7 @@
         color: white !important;
         text-shadow: 2px 5px 40px rgba(0, 0, 0, 0.342);
         @media (max-width: 800px) {
-          font-size: 3rem;
-        }
-        @media (max-width: 550px) {
-          font-size: 2rem;
+          font-size: 2.5rem;
         }
       }
 
@@ -51,10 +49,7 @@
         font-size: 1.6rem;
         font-weight: 100;
         @media (max-width: 800px) {
-          font-size: 2rem;
-        }
-        @media (max-width: 550px) {
-          font-size: 1rem;
+          font-size: 1.4rem;
         }
       }
     }

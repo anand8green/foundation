@@ -17,7 +17,7 @@ export default function Hero({ title, subtitle }) {
             <div className="InsideHero__Content">
                 <div className="InsideHero__Text">
                     <h1>{title}</h1>
-                    <h4>{subtitle}</h4>
+                    <h6>{subtitle}</h6>
                 </div>
 
             </div>

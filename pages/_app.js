@@ -7,6 +7,8 @@ import '../styles/Features.scss'
 import '../styles/footer.scss'
 import '../styles/BurgerMenu.scss'
 import '../styles/InsidePage.scss'
+import '../styles/mediaQuery.scss'
+import '../styles/Blogs.scss'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

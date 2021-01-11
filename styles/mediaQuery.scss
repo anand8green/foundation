@@ -1,0 +1,12 @@
+h1 {
+  @media (max-width: 800px) {
+    margin: 0 !important;
+  }
+}
+
+p {
+  @media (max-width: 800px) {
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+  }
+}

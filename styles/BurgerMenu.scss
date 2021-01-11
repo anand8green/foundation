@@ -5,8 +5,8 @@
 }
 
 .BurgerMenu {
-  //   background-color: red;
-  background: linear-gradient($Green, #1b723c);
+  background-color: $EnergyGreen !important;
+  border: thin solid rgba(255, 255, 255, 0.562);
   position: absolute;
   font-size: 1rem !important;
   text-align: left;
